@@ -9,7 +9,6 @@ class AnimalService
     response = conn.get("/api/data/taxonSearch") do |req|
       req.params['elCode'] = element_code
     end
-
      parse = JSON.parse(response.body, symbolize_names: true)
   end
 end

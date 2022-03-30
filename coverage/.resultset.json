@@ -195,7 +195,7 @@
           null,
           null,
           1,
-          1,
+          2,
           null,
           null,
           null,
@@ -208,6 +208,55 @@
         "lines": [
           1,
           null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/wadenaughton/turing/4module/projects/worth_wild/be/worth_wild_animal_api/app/facades/animal_facade.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          2,
+          2,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/wadenaughton/turing/4module/projects/worth_wild/be/worth_wild_animal_api/spec/requests/api/v1/animal_request_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/wadenaughton/turing/4module/projects/worth_wild/be/worth_wild_animal_api/spec/services/animal_service_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          null,
+          null,
           null
         ]
       },
@@ -217,21 +266,133 @@
           1,
           null,
           1,
-          1,
+          2,
           null,
           null,
           1,
+          2,
+          2,
+          null,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/wadenaughton/turing/4module/projects/worth_wild/be/worth_wild_animal_api/app/poros/animal.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          null,
+          null,
+          null,
+          1,
+          2,
+          2,
+          4,
+          130,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/wadenaughton/turing/4module/projects/worth_wild/be/worth_wild_animal_api/app/controllers/api/v1/animal_controller.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
           1,
           1,
           null,
           null,
+          null
+        ]
+      },
+      "/Users/wadenaughton/turing/4module/projects/worth_wild/be/worth_wild_animal_api/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/wadenaughton/turing/4module/projects/worth_wild/be/worth_wild_animal_api/app/serializer/animal_serializer.rb": {
+        "lines": [
+          1,
+          null,
           1,
           1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
           null,
           null
         ]
       }
     },
-    "timestamp": 1648583560
+    "timestamp": 1648599654
   }
 }
