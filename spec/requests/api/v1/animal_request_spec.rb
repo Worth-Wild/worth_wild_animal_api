@@ -6,7 +6,7 @@ RSpec.describe 'Animal API Endpoint' do
       animal_params = { elCode: "AMAJB01010" }
       get '/api/v1/animal/:id', params: animal_params
       result = JSON.parse(response.body, symbolize_names: true)
-      # require "pry"; binding.pry
+
       expect(result).to be_a Hash
       # expect(result[:data]).to have_key(:id)
       expect(result[:data]).to have_key(:type)
