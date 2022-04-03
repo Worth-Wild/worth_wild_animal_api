@@ -29,7 +29,7 @@ class Animal
     @states = get_states(data)
     @gRank = data[:grank]
     @gRankReasons = data[:grankReasons]
-    @major_habitat = habitat(data[:animalCharacteristics][:majorHabitat])
+    @major_habitat = habitat(data[:animalCharacteristics])
     @habitatComments = data[:speciesCharacteristics][:habitatComments]
     @threatImpactComments = data[:rankInfo][:threatImpactComments]
     @shortTermTrend = data[:rankInfo][:shortTermTrendComments]
@@ -48,6 +48,8 @@ class Animal
 
   def habitat(data)
     if data.nil?
+      return nil
+    elsif data[:majorHabitat].nil?
       return nil
     else
       return data[:majorHabitatDescEn]
