@@ -29,12 +29,11 @@ class Animal
     @states = get_states(data)
     @gRank = data[:grank]
     @gRankReasons = data[:grankReasons]
-    @major_habitat = data[:animalCharacteristics][:majorHabitat][:majorHabitatDescEn]
+    @major_habitat = habitat(data[:animalCharacteristics][:majorHabitat])
     @habitatComments = data[:speciesCharacteristics][:habitatComments]
     @threatImpactComments = data[:rankInfo][:threatImpactComments]
     @shortTermTrend = data[:rankInfo][:shortTermTrendComments]
-    @popSize = data[:rankInfo][:popSize][:popSizeDescEn]
-
+    @popSize = pop_size(data[:rankInfo][:popSize])
   end
 
   def get_states(data)
@@ -45,5 +44,21 @@ class Animal
       end
     end
     test.flatten
+  end
+
+  def habitat(data)
+    if data.nil?
+      return nil
+    else
+      return data[:majorHabitatDescEn]
+    end
+  end
+
+  def pop_size(data)
+    if data.nil?
+      return nil
+    else
+      return data[:popSizeDescEn]
+    end
   end
 end
