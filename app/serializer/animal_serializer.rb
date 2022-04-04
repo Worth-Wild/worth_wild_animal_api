@@ -3,7 +3,6 @@ class AnimalSerializer
   def self.new(animal_data)
   { "data":
     {
-        # 'id': animal_data.id,
         'type': "animal",
         'attributes':
         {

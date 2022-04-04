@@ -8,7 +8,6 @@ RSpec.describe 'Animal API Endpoint' do
       result = JSON.parse(response.body, symbolize_names: true)
 
       expect(result).to be_a Hash
-      # expect(result[:data]).to have_key(:id)
       expect(result[:data]).to have_key(:type)
       expect(result[:data]).to have_key(:attributes)
       expect(result[:data][:attributes]).to have_key(:common_name)
