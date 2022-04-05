@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe 'Animal API Endpoint' do
   describe 'GET /animal/:id' do
-    it 'returns a animal based on the search param' do
+    it 'returns a animal based on the search param', :vcr do
       animal_params = { elCode: "AMAJB01010" }
       get '/api/v1/animal/:id', params: animal_params
       result = JSON.parse(response.body, symbolize_names: true)

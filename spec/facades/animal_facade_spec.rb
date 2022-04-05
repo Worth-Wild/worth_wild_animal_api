@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe AnimalFacade do
   describe '::animal_search' do
-    it 'returns animal data from the API' do
+    it 'returns animal data from the API', :vcr do
       element_code = "AAABB01220"
       data = AnimalFacade.get_data(element_code)
       expect(data).to be_a Animal
