@@ -1,28 +1,52 @@
-![featuring](https://user-images.githubusercontent.com/87088092/162029767-9a48440f-70e7-4cef-a9cc-88258d6eb45e.png)
+# <div align="center">Animal Microservice</div>
+
+# <div align="center">![featuring](https://user-images.githubusercontent.com/87088092/162084854-0c22077e-41c0-44b8-9209-c817ec54f9d5.png)
+</div>
+
+### <div align="center">This repo is a microservice used by the [Worth Wild BE repo](https://github.com/Worth-Wild/worth_wild_be) and consumes data from [NatureServe](https://www.natureserve.org/access-data).</div>
+
+<hr>
+
+## Local Setup
+
+1. Fork and Clone the repo
+2. Install gem packages: `bundle install`
+3. Set up the database: `rails db:{drop,create,migrate,seed}`
 
 
+### Run the test suite 
 
-# README
+1.  Follow steps in the local setup (above)
+2.  In your terminal, run `bundle exec rspec` to test for global coverage
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+### Gems:
 
-* Ruby version
+<p>
+  <img src="https://img.shields.io/badge/rspec--rails-b81818.svg?&style=flaste&logo=rubygems&logoColor=white" />
+  <img src="https://img.shields.io/badge/pry-b81818.svg?&style=flaste&logo=rubygems&logoColor=white" />   
+  <img src="https://img.shields.io/badge/simplecov-b81818.svg?&style=flaste&logo=rubygems&logoColor=white" />  
+  </br>
+  <img src="https://img.shields.io/badge/figaro-b81818.svg?&style=flaste&logo=rubygems&logoColor=white" />  
+  <img src="https://img.shields.io/badge/faraday-b81818.svg?&style=flaste&logo=rubygems&logoColor=white" />
+</p>
 
-* System dependencies
+*Resource links:*
+[rspec-rails](https://github.com/rspec/rspec-rails) | [pry](https://github.com/pry/pry) | [simplecov](https://github.com/simplecov-ruby/simplecov) | [faraday](https://github.com/lostisland/faraday)
 
-* Configuration
+### Project details
 
-* Database creation
+Link to Turing Project Assignment: [Capstone Project](https://mod4.turing.edu/projects/capstone/)
 
-* Database initialization
+<hr>
 
-* How to run the test suite
+## <div align="center">API endpoints</div>
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+<details close="close">
+  <summary>Animal API endpoint</summary>
+  
+  ```
+  example api endpoint
+  ```
+  
+</details>
